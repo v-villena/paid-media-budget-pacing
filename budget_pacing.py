@@ -17,5 +17,5 @@ print(data)
 #
 # Then print the updated dataset.
 data["remaining_budget"] = data["monthly_budget"] - data["spend_to_date"]
-
+data["budget_used_pct"] = data["spend_to_date"] / data["monthly_budget"] * 100
 print(data)
