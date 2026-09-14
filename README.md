@@ -4,6 +4,10 @@ A web-based budget pacing dashboard built for paid media managers to quickly ide
 
 🔗 **Live App:** https://paid-media-budget-pacing.streamlit.app/
 
+## Dashboard Preview
+
+![Paid Media Budget Pacing Dashboard](budget-pacing-dashboard.png)
+
 ## Business Problem
 
 Paid media managers often manage budgets across multiple campaigns and advertising platforms. Manually comparing spend against monthly budgets can be repetitive and makes it easy to miss campaigns that are spending too quickly or too slowly.
