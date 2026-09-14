@@ -16,3 +16,6 @@ print(data)
 # data["remaining_budget"] = ...
 #
 # Then print the updated dataset.
+data["remaining_budget"] = data["monthly_budget"] - data["spend_to_date"]
+
+print(data)
