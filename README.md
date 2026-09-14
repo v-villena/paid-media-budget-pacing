@@ -11,12 +11,9 @@ Paid media managers need to know whether campaigns are spending too quickly, too
 Build a Python workflow that can:
 
 - Read campaign budget and spend data
-- Calculate remaining budget
-- Calculate expected spend based on the date
-- Identify overpacing and underpacing campaigns
-- Project month-end spend
-- Recommend daily spend needed to hit budget
-- Summarize pacing by channel
+- Calculate remaining budget by campaign
+- Calculate the percentage of monthly budget used
+- Create a foundation for more advanced budget pacing analysis
 
 ## Current version
 
@@ -30,3 +27,27 @@ Version 0.1 starts with loading campaign data and calculating remaining budget.
 ## Dataset
 
 The included dataset is fictional and created for learning and portfolio purposes.
+
+## Example output
+
+The script calculates:
+
+- Remaining budget by campaign
+- Percentage of monthly budget already used
+
+Example:
+
+| Campaign | Monthly Budget | Spend to Date | Remaining Budget | Budget Used % |
+|---|---:|---:|---:|---:|
+| Meta Prospecting | 5000 | 2100 | 2900 | 42.00 |
+| Meta Retargeting | 2500 | 1450 | 1050 | 58.00 |
+| Google Search - Brand | 3000 | 1980 | 1020 | 66.00 |
+| Google Search - Nonbrand | 8000 | 5100 | 2900 | 63.75 |
+| TikTok Creative Testing | 2500 | 700 | 1800 | 28.00 |
+
+## How to run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
